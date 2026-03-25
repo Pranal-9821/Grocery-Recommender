@@ -227,7 +227,7 @@ def recommend():
     }
 
     # TIER 3: Global Best Sellers (Always calculate these as a fallback)
-    best_sellers = ["Whole Milk", "Onions", "Eggs", "Bananas", "Chicken Breast"]
+    best_sellers = ["Full-Cream Milk", "Onions", "Eggs", "Bananas", "Chicken Breast"]
     
     data = request.json
     cart_items = data.get('items', []) if data else []

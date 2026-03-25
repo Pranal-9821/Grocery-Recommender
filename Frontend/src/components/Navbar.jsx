@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
+const API_URL = import.meta.env.VITE_API_URL;
 const Navbar = ({ cartCount, toggleCart, user, onLogout }) => {
   const navigate = useNavigate();
   
@@ -22,7 +23,7 @@ const Navbar = ({ cartCount, toggleCart, user, onLogout }) => {
     setLoadingOrders(true);
     
     try {
-      const response = await fetch(`http://127.0.0.1:5000/orders/${user.id}`);
+      const response = await fetch(`${API_URL}/orders/${user.id}`);
       if (response.ok) {
         const data = await response.json();
         setOrders(data);

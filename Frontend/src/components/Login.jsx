@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+const API_URL = import.meta.env.VITE_API_URL;
 const Login = ({ onAuthSuccess }) => {
   const navigate = useNavigate();
   
@@ -35,7 +36,7 @@ const Login = ({ onAuthSuccess }) => {
     setLoading(true);
 
     const endpoint = isLoginMode ? "/login" : "/register";
-    const url = `http://127.0.0.1:5000${endpoint}`;
+    const url = `${API_URL}${endpoint}`;
 
     try {
       const response = await fetch(url, {

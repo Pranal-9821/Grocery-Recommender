@@ -17,7 +17,7 @@ const products = [
   { id: 15, name: "Grapes", type: "veg", price: 130, description: "Quality grapes for your daily needs.", image: "https://placehold.co/400x300/e2e8f0/475569?text=Grapes" },
 
   // --- DAIRY & REFRIGERATED ---
-  { id: 16, name: "Whole Milk", type: "veg", price: 70, description: "Quality full-cream milk for your daily needs.", image: "https://placehold.co/400x300/e2e8f0/475569?text=Full-Cream+Milk" },
+  { id: 16, name: "Full-Cream Milk", type: "veg", price: 70, description: "Quality full-cream milk for your daily needs.", image: "https://placehold.co/400x300/e2e8f0/475569?text=Full-Cream+Milk" },
   { id: 17, name: "Greek Yogurt", type: "veg", price: 110, description: "Quality greek yogurt for your daily needs.", image: "https://placehold.co/400x300/e2e8f0/475569?text=Greek+Yogurt" },
   { id: 18, name: "Cottage Cheese", type: "veg", price: 150, description: "Quality paneer or tofu for your daily needs.", image: "https://placehold.co/400x300/e2e8f0/475569?text=Paneer+or+Tofu" },
   { id: 19, name: "Butter", type: "veg", price: 120, description: "Quality butter for your daily needs.", image: "https://placehold.co/400x300/e2e8f0/475569?text=Butter" },
@@ -28,7 +28,7 @@ const products = [
   { id: 22, name: "Chicken Breast", type: "nonveg", price: 250, description: "Quality chicken breast for your daily needs.", image: "https://placehold.co/400x300/fee2e2/991b1b?text=Chicken+Breast" },
   { id: 23, name: "Lamb", type: "nonveg", price: 450, description: "Quality lamb for your daily needs.", image: "https://placehold.co/400x300/fee2e2/991b1b?text=Lamb" },
   { id: 24, name: "Fresh Fish Fillets", type: "nonveg", price: 350, description: "Quality fresh fish fillets for your daily needs.", image: "https://placehold.co/400x300/fee2e2/991b1b?text=Fish+Fillets" },
-  { id: 25, name: "Prawns or Shrimp", type: "nonveg", price: 400, description: "Quality prawns or shrimp for your daily needs.", image: "https://placehold.co/400x300/fee2e2/991b1b?text=Prawns" },
+  { id: 25, name: "Prawns", type: "nonveg", price: 400, description: "Quality prawns or shrimp for your daily needs.", image: "https://placehold.co/400x300/fee2e2/991b1b?text=Prawns" },
 
   // --- PANTRY & CANNED GOODS ---
   { id: 26, name: "Sunflower Oil", type: "veg", price: 180, description: "Quality sunflower oil for your daily needs.", image: "https://placehold.co/400x300/e2e8f0/475569?text=Sunflower+Oil" },

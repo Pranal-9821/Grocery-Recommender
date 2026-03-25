@@ -1,6 +1,7 @@
 import React from "react";
 import Recommendations from "./Recommendation.jsx"; // Ensure this path matches your folder structure
 
+const API_URL = import.meta.env.VITE_API_URL;
 const Cart = ({ cart, isOpen, closeCart, addToCart, removeFromCart, clearCart, user }) => {
   // Calculate total price dynamically
   const totalPrice = cart.reduce((total, item) => total + (item.price * item.qty), 0);
@@ -15,7 +16,7 @@ const Cart = ({ cart, isOpen, closeCart, addToCart, removeFromCart, clearCart, u
 
     // 2. Send data to the Flask backend
     try {
-      const response = await fetch("http://127.0.0.1:5000/checkout", {
+        const response = await fetch(`${API_URL}/checkout`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

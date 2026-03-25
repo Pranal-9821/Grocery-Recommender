@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 // Ensure you have this file:
 import products from "../data/products"; 
+const API_URL = import.meta.env.VITE_API_URL;
 
 const Recommendations = ({ cart, addToCart }) => {
   // 1. UPDATED: We now expect an object from the backend
@@ -22,7 +23,7 @@ const Recommendations = ({ cart, addToCart }) => {
 
     const items = cart.map(i => i.name);
 
-    axios.post("http://localhost:5000/recommend", { items })
+    axios.post(`${API_URL}/recommend`, { items })
       .then(res => {
         // 2. UPDATED: Directly set the object returned by the new backend
         setData(res.data);
