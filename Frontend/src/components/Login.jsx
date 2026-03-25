@@ -1,10 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react"; // <-- Added useEffect here
 import { useNavigate } from "react-router-dom";
 
 const API_URL = import.meta.env.VITE_API_URL;
-const Login = ({ onAuthSuccess }) => {
+
+// Added 'user' to the props
+const Login = ({ onAuthSuccess, user }) => {
   const navigate = useNavigate();
   
+  // --- REDIRECT LOGIC ---
+  // If a user is already logged in, immediately redirect them to the shop
+  useEffect(() => {
+    if (user) {
+      navigate("/shop", { replace: true }); 
+    }
+  }, [user, navigate]);
+  // ----------------------
+
   const [isLoginMode, setIsLoginMode] = useState(true);
   
   const [formData, setFormData] = useState({
@@ -26,7 +37,7 @@ const Login = ({ onAuthSuccess }) => {
     setIsLoginMode(!isLoginMode);
     setError("");
     setSuccessMsg("");
-    setFormData({ name: "", username: "", email: "", password: "" }); // Security: clear everything on switch
+    setFormData({ name: "", username: "", email: "", password: "" }); 
   };
 
   const handleSubmit = async (e) => {
@@ -47,10 +58,7 @@ const Login = ({ onAuthSuccess }) => {
 
       const data = await response.json();
 
-      // NEW: Explicitly handle non-200 responses and extract the specific backend error message
       if (!response.ok) {
-        // If your Flask backend sends {"error": "Invalid email"}, this grabs it.
-        // If it fails for an unknown reason, it uses a fallback message.
         throw new Error(data.error || "Invalid credentials. Please check your email and password.");
       }
 
@@ -66,12 +74,14 @@ const Login = ({ onAuthSuccess }) => {
       }
 
     } catch (err) {
-      // This catches the thrown error from above and sets it to the UI state
       setError(err.message);
     } finally {
       setLoading(false);
     }
   };
+
+  // Prevent the login form from flashing on the screen for a split second before redirecting
+  if (user) return null;
 
   return (
     <div className="min-h-[80vh] flex items-center justify-center bg-gray-50 px-4 py-12">

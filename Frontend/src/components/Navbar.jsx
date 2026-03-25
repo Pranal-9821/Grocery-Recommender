@@ -9,10 +9,13 @@ const Navbar = ({ cartCount, toggleCart, user, onLogout }) => {
   const [orders, setOrders] = useState([]);
   const [loadingOrders, setLoadingOrders] = useState(false);
   
-  // NEW: State to track which order IDs are expanded to show all items
   const [expandedOrders, setExpandedOrders] = useState({});
+  // NEW: State for mobile menu
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleOrdersClick = async () => {
+    setIsMobileMenuOpen(false); // Close mobile menu if open
+
     if (!user) {
       alert("Please log in to view your orders.");
       navigate("/login");
@@ -35,7 +38,6 @@ const Navbar = ({ cartCount, toggleCart, user, onLogout }) => {
     }
   };
 
-  // NEW: Toggle function for expanding/collapsing individual orders
   const toggleOrderExpansion = (orderId) => {
     setExpandedOrders(prev => ({
       ...prev,
@@ -68,7 +70,7 @@ const Navbar = ({ cartCount, toggleCart, user, onLogout }) => {
               Orders
             </button>
             
-            <div className="flex items-center gap-3 border-l border-gray-700 pl-6 ml-2">
+            <div className="flex items-center gap-3 border-l border-gray-700 pl-6 ml-2 hidden sm:flex">
               {user ? (
                 <div className="flex items-center gap-4">
                   <span className="text-sm text-gray-300">Hi, <b className="text-white">{user.username}</b></span>
@@ -89,8 +91,44 @@ const Navbar = ({ cartCount, toggleCart, user, onLogout }) => {
                 </span>
               )}
             </button>
+
+            {/* NEW: Mobile Hamburger Menu Button (Visible only on small screens) */}
+            <button 
+              className="sm:hidden text-gray-300 hover:text-white p-2 ml-2 focus:outline-none"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {isMobileMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
           </div>
         </div>
+
+        {/* NEW: Mobile Dropdown Menu */}
+        {isMobileMenuOpen && (
+          <div className="sm:hidden mt-4 pt-4 border-t border-gray-700 flex flex-col gap-4 font-medium animate-fade-in">
+            <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-green-400">Home</Link>
+            <Link to="/shop" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-green-400">Shop</Link>
+            <button onClick={handleOrdersClick} className="text-left hover:text-green-400">Orders</button>
+            
+            <div className="border-t border-gray-700 pt-4">
+              {user ? (
+                <div className="flex justify-between items-center">
+                  <span className="text-sm text-gray-300">Hi, <b className="text-white">{user.username}</b></span>
+                  <button onClick={() => { setIsMobileMenuOpen(false); onLogout(); }} className="text-sm bg-red-500/10 text-red-400 px-4 py-2 rounded border border-red-500/20">Logout</button>
+                </div>
+              ) : (
+                <Link to="/login" onClick={() => setIsMobileMenuOpen(false)} className="bg-green-600 block text-center py-2.5 rounded-md font-bold text-white shadow-sm">
+                  Get Started
+                </Link>
+              )}
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Backdrop */}

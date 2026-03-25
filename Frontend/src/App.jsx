@@ -12,7 +12,7 @@ function App() {
   // Global States
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
-  
+
   // 🆕 Check localStorage on initial load to see if a user is already logged in
   const [user, setUser] = useState(() => {
     const savedUser = localStorage.getItem("grocery_user");
@@ -72,7 +72,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/shop" element={<Shop addToCart={addToCart} />} />
           {/* 🆕 Pass the new handleLoginSuccess function */}
-          <Route path="/login" element={<Login onAuthSuccess={handleLoginSuccess} />} />
+<Route path="/login" element={<Login onAuthSuccess={handleLoginSuccess} user={user} />} />
         </Routes>
 
         {/* Slide-out Cart Panel */}
@@ -83,7 +83,7 @@ function App() {
           addToCart={addToCart}
           removeFromCart={removeFromCart}
           clearCart={clearCart}
-          user={user} 
+          user={user}
         />
 
       </div>
