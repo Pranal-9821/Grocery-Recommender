@@ -1,0 +1,8 @@
+flask
+flask-cors
+werkzeug
+pandas
+numpy
+matplotlib
+seaborn
+mlxtend

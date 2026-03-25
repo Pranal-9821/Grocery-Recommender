@@ -1,0 +1,443 @@
+Antecedent,Consequent,Support,Confidence,Lift
+Greek Yogurt,sunflower oil,0.062,0.3263,1.6996
+sunflower oil,Greek Yogurt,0.062,0.3229,1.6996
+Garlic,Cucumber,0.066,0.3438,1.5914
+Cucumber,Garlic,0.066,0.3056,1.5914
+sunflower oil,Bell Peppers,0.064,0.3333,1.4749
+Bell Peppers,sunflower oil,0.064,0.2832,1.4749
+Fresh Fish Fillets,Butter,0.066,0.3113,1.4413
+Butter,Fresh Fish Fillets,0.066,0.3056,1.4413
+Garlic,lamb,0.058,0.3021,1.4385
+lamb,Garlic,0.058,0.2762,1.4385
+Carrots,Oranges,0.064,0.32,1.4035
+Oranges,Carrots,0.064,0.2807,1.4035
+Full-Cream Milk,Eggs,0.07,0.3271,1.3979
+Eggs,Full-Cream Milk,0.07,0.2991,1.3979
+Spinach,Ginger,0.066,0.3204,1.393
+Ginger,Spinach,0.066,0.287,1.393
+sunflower oil,Dishwashing Liquid,0.054,0.2812,1.3522
+Dishwashing Liquid,sunflower oil,0.054,0.2596,1.3522
+All-Purpose Surface Cleaner,lamb,0.056,0.2828,1.3468
+lamb,All-Purpose Surface Cleaner,0.056,0.2667,1.3468
+lamb,Grapes,0.07,0.3333,1.3333
+Grapes,lamb,0.07,0.28,1.3333
+Spinach,Bell Peppers,0.062,0.301,1.3317
+Bell Peppers,Spinach,0.062,0.2743,1.3317
+Bell Peppers,Potatoes,0.074,0.3274,1.331
+Potatoes,Bell Peppers,0.074,0.3008,1.331
+Lemons,Grapes,0.072,0.3303,1.3211
+Grapes,Lemons,0.072,0.288,1.3211
+cheese,Butter,0.06,0.283,1.3103
+Butter,cheese,0.06,0.2778,1.3103
+Spinach,Apples,0.056,0.2718,1.3069
+Apples,Spinach,0.056,0.2692,1.3069
+All-Purpose Surface Cleaner,Tomatoes,0.058,0.2929,1.2961
+Tomatoes,All-Purpose Surface Cleaner,0.058,0.2566,1.2961
+Greek Yogurt,Cottage cheese,0.058,0.3053,1.2935
+Cottage cheese,Greek Yogurt,0.058,0.2458,1.2935
+sunflower oil,Fresh Fish Fillets,0.052,0.2708,1.2775
+Fresh Fish Fillets,sunflower oil,0.052,0.2453,1.2775
+Dishwashing Liquid,Eggs,0.062,0.2981,1.2738
+Eggs,Dishwashing Liquid,0.062,0.265,1.2738
+Fresh Fish Fillets,Cucumber,0.058,0.2736,1.2666
+Cucumber,Fresh Fish Fillets,0.058,0.2685,1.2666
+Lemons,Bell Peppers,0.062,0.2844,1.2584
+Bell Peppers,Lemons,0.062,0.2743,1.2584
+Onions,Cucumber,0.05,0.2717,1.2581
+Cucumber,Onions,0.05,0.2315,1.2581
+Laundry Detergent,Lemons,0.058,0.2736,1.255
+Lemons,Laundry Detergent,0.058,0.2661,1.255
+lamb,Broccoli,0.062,0.2952,1.251
+Broccoli,lamb,0.062,0.2627,1.251
+Sponges/Scrubbers,lamb,0.054,0.2621,1.2483
+lamb,Sponges/Scrubbers,0.054,0.2571,1.2483
+Tomatoes,Eggs,0.066,0.292,1.248
+Eggs,Tomatoes,0.066,0.2821,1.248
+Sponges/Scrubbers,Grapes,0.064,0.3107,1.2427
+Grapes,Sponges/Scrubbers,0.064,0.256,1.2427
+Bell Peppers,Cottage cheese,0.066,0.292,1.2374
+Cottage cheese,Bell Peppers,0.066,0.2797,1.2374
+Apples,Lemons,0.056,0.2692,1.235
+Lemons,Apples,0.056,0.2569,1.235
+Prawns,Eggs,0.064,0.2883,1.232
+Eggs,Prawns,0.064,0.2735,1.232
+Butter,Tomatoes,0.06,0.2778,1.2291
+Tomatoes,Butter,0.06,0.2655,1.2291
+All-Purpose Surface Cleaner,Sponges/Scrubbers,0.05,0.2525,1.2259
+Sponges/Scrubbers,All-Purpose Surface Cleaner,0.05,0.2427,1.2259
+Spinach,Cucumber,0.054,0.2621,1.2136
+Cucumber,Spinach,0.054,0.25,1.2136
+sunflower oil,Sponges/Scrubbers,0.048,0.25,1.2136
+Sponges/Scrubbers,sunflower oil,0.048,0.233,1.2136
+sunflower oil,Grapes,0.058,0.3021,1.2083
+Grapes,sunflower oil,0.058,0.232,1.2083
+Garlic,Butter,0.05,0.2604,1.2056
+Butter,Garlic,0.05,0.2315,1.2056
+All-Purpose Surface Cleaner,Chicken Breast,0.06,0.303,1.2025
+Chicken Breast,All-Purpose Surface Cleaner,0.06,0.2381,1.2025
+Greek Yogurt,Oranges,0.052,0.2737,1.2004
+Oranges,Greek Yogurt,0.052,0.2281,1.2004
+Fresh Fish Fillets,Oranges,0.058,0.2736,1.1999
+Oranges,Fresh Fish Fillets,0.058,0.2544,1.1999
+sunflower oil,Carrots,0.046,0.2396,1.1979
+Carrots,sunflower oil,0.046,0.23,1.1979
+Onions,Broccoli,0.052,0.2826,1.1975
+Broccoli,Onions,0.052,0.2203,1.1975
+Apples,Grapes,0.062,0.2981,1.1923
+Grapes,Apples,0.062,0.248,1.1923
+sunflower oil,Cottage cheese,0.054,0.2812,1.1917
+Cottage cheese,sunflower oil,0.054,0.2288,1.1917
+sunflower oil,lamb,0.048,0.25,1.1905
+lamb,sunflower oil,0.048,0.2286,1.1905
+Butter,Lemons,0.056,0.2593,1.1893
+Lemons,Butter,0.056,0.2569,1.1893
+Cucumber,Grapes,0.064,0.2963,1.1852
+Grapes,Cucumber,0.064,0.256,1.1852
+All-Purpose Surface Cleaner,Prawns,0.052,0.2626,1.183
+Prawns,All-Purpose Surface Cleaner,0.052,0.2342,1.183
+Eggs,Potatoes,0.068,0.2906,1.1813
+Potatoes,Eggs,0.068,0.2764,1.1813
+Greek Yogurt,Full-Cream Milk,0.048,0.2526,1.1805
+Full-Cream Milk,Greek Yogurt,0.048,0.2243,1.1805
+Onions,Fresh Fish Fillets,0.046,0.25,1.1792
+Fresh Fish Fillets,Onions,0.046,0.217,1.1792
+Greek Yogurt,Spinach,0.046,0.2421,1.1753
+Spinach,Greek Yogurt,0.046,0.2233,1.1753
+Laundry Detergent,Bananas,0.056,0.2642,1.1688
+Fresh Fish Fillets,Bananas,0.056,0.2642,1.1688
+Bananas,Laundry Detergent,0.056,0.2478,1.1688
+Bananas,Fresh Fish Fillets,0.056,0.2478,1.1688
+Onions,Full-Cream Milk,0.046,0.25,1.1682
+Full-Cream Milk,Onions,0.046,0.215,1.1682
+Cucumber,Ginger,0.058,0.2685,1.1675
+Ginger,Cucumber,0.058,0.2522,1.1675
+Lemons,Cottage cheese,0.06,0.2752,1.1662
+Cottage cheese,Lemons,0.06,0.2542,1.1662
+All-Purpose Surface Cleaner,Eggs,0.054,0.2727,1.1655
+Eggs,All-Purpose Surface Cleaner,0.054,0.2308,1.1655
+Garlic,Spinach,0.046,0.2396,1.163
+Spinach,Garlic,0.046,0.2233,1.163
+lamb,Potatoes,0.06,0.2857,1.1614
+Potatoes,lamb,0.06,0.2439,1.1614
+Spinach,Bananas,0.054,0.2621,1.1599
+Bananas,Spinach,0.054,0.2389,1.1599
+Prawns,Bell Peppers,0.058,0.2613,1.156
+Bell Peppers,Prawns,0.058,0.2566,1.156
+Garlic,Bananas,0.05,0.2604,1.1523
+Bananas,Garlic,0.05,0.2212,1.1523
+Onions,Cottage cheese,0.05,0.2717,1.1514
+Cottage cheese,Onions,0.05,0.2119,1.1514
+Dishwashing Liquid,Bell Peppers,0.054,0.2596,1.1487
+Bell Peppers,Dishwashing Liquid,0.054,0.2389,1.1487
+Full-Cream Milk,Cottage cheese,0.058,0.271,1.1484
+Cottage cheese,Full-Cream Milk,0.058,0.2458,1.1484
+Onions,Lemons,0.046,0.25,1.1468
+Lemons,Onions,0.046,0.211,1.1468
+Laundry Detergent,Full-Cream Milk,0.052,0.2453,1.1462
+Full-Cream Milk,Laundry Detergent,0.052,0.243,1.1462
+Spinach,Laundry Detergent,0.05,0.2427,1.1449
+Laundry Detergent,Spinach,0.05,0.2358,1.1449
+Greek Yogurt,cheese,0.046,0.2421,1.142
+cheese,Greek Yogurt,0.046,0.217,1.142
+Apples,Broccoli,0.056,0.2692,1.1408
+Dishwashing Liquid,Broccoli,0.056,0.2692,1.1408
+Apples,Cottage cheese,0.056,0.2692,1.1408
+Broccoli,Apples,0.056,0.2373,1.1408
+Broccoli,Dishwashing Liquid,0.056,0.2373,1.1408
+Cottage cheese,Apples,0.056,0.2373,1.1408
+Butter,Chicken Breast,0.062,0.287,1.139
+Chicken Breast,Butter,0.062,0.246,1.139
+Greek Yogurt,Grapes,0.054,0.2842,1.1368
+Grapes,Greek Yogurt,0.054,0.216,1.1368
+lamb,Lemons,0.052,0.2476,1.1359
+Lemons,lamb,0.052,0.2385,1.1359
+Dishwashing Liquid,Potatoes,0.058,0.2788,1.1335
+Potatoes,Dishwashing Liquid,0.058,0.2358,1.1335
+Garlic,Ginger,0.05,0.2604,1.1322
+sunflower oil,Ginger,0.05,0.2604,1.1322
+Ginger,Garlic,0.05,0.2174,1.1322
+Ginger,sunflower oil,0.05,0.2174,1.1322
+Carrots,Fresh Fish Fillets,0.048,0.24,1.1321
+Fresh Fish Fillets,Carrots,0.048,0.2264,1.1321
+Ginger,Potatoes,0.064,0.2783,1.1311
+Potatoes,Ginger,0.064,0.2602,1.1311
+lamb,Cottage cheese,0.056,0.2667,1.1299
+Cottage cheese,lamb,0.056,0.2373,1.1299
+Butter,Potatoes,0.06,0.2778,1.1292
+Potatoes,Butter,0.06,0.2439,1.1292
+cheese,Eggs,0.056,0.2642,1.1289
+Eggs,cheese,0.056,0.2393,1.1289
+All-Purpose Surface Cleaner,Spinach,0.046,0.2323,1.1278
+Spinach,All-Purpose Surface Cleaner,0.046,0.2233,1.1278
+Lemons,Broccoli,0.058,0.2661,1.1274
+Broccoli,Lemons,0.058,0.2458,1.1274
+Butter,Ginger,0.056,0.2593,1.1272
+Ginger,Butter,0.056,0.2435,1.1272
+Laundry Detergent,Tomatoes,0.054,0.2547,1.1271
+Fresh Fish Fillets,Tomatoes,0.054,0.2547,1.1271
+Tomatoes,Laundry Detergent,0.054,0.2389,1.1271
+Tomatoes,Fresh Fish Fillets,0.054,0.2389,1.1271
+Full-Cream Milk,Cucumber,0.052,0.243,1.125
+Cucumber,Full-Cream Milk,0.052,0.2407,1.125
+sunflower oil,Full-Cream Milk,0.046,0.2396,1.1195
+Full-Cream Milk,sunflower oil,0.046,0.215,1.1195
+Fresh Fish Fillets,Cottage cheese,0.056,0.2642,1.1193
+Cottage cheese,Fresh Fish Fillets,0.056,0.2373,1.1193
+Greek Yogurt,Bell Peppers,0.048,0.2526,1.1178
+Bell Peppers,Greek Yogurt,0.048,0.2124,1.1178
+Spinach,Chicken Breast,0.058,0.2816,1.1173
+Chicken Breast,Spinach,0.058,0.2302,1.1173
+Full-Cream Milk,Bell Peppers,0.054,0.2523,1.1165
+Bell Peppers,Full-Cream Milk,0.054,0.2389,1.1165
+Carrots,Spinach,0.046,0.23,1.1165
+Spinach,Carrots,0.046,0.2233,1.1165
+Greek Yogurt,Dishwashing Liquid,0.044,0.2316,1.1134
+Dishwashing Liquid,Greek Yogurt,0.044,0.2115,1.1134
+Dishwashing Liquid,Butter,0.05,0.2404,1.1129
+Butter,Dishwashing Liquid,0.05,0.2315,1.1129
+Greek Yogurt,Potatoes,0.052,0.2737,1.1125
+Fresh Fish Fillets,Laundry Detergent,0.05,0.2358,1.1125
+Laundry Detergent,Fresh Fish Fillets,0.05,0.2358,1.1125
+Garlic,Sponges/Scrubbers,0.044,0.2292,1.1125
+Sponges/Scrubbers,Garlic,0.044,0.2136,1.1125
+Potatoes,Greek Yogurt,0.052,0.2114,1.1125
+Carrots,Cucumber,0.048,0.24,1.1111
+Cucumber,Carrots,0.048,0.2222,1.1111
+Spinach,Broccoli,0.054,0.2621,1.1107
+Broccoli,Spinach,0.054,0.2288,1.1107
+Spinach,lamb,0.048,0.233,1.1096
+lamb,Spinach,0.048,0.2286,1.1096
+Onions,Butter,0.044,0.2391,1.1071
+Butter,Onions,0.044,0.2037,1.1071
+Dishwashing Liquid,Chicken Breast,0.058,0.2788,1.1065
+Chicken Breast,Dishwashing Liquid,0.058,0.2302,1.1065
+Onions,Tomatoes,0.046,0.25,1.1062
+Cucumber,Bananas,0.054,0.25,1.1062
+Apples,Tomatoes,0.052,0.25,1.1062
+Onions,Bananas,0.046,0.25,1.1062
+Apples,Bananas,0.052,0.25,1.1062
+Bananas,Cucumber,0.054,0.2389,1.1062
+Tomatoes,Apples,0.052,0.2301,1.1062
+Bananas,Apples,0.052,0.2301,1.1062
+Tomatoes,Onions,0.046,0.2035,1.1062
+Bananas,Onions,0.046,0.2035,1.1062
+Greek Yogurt,Carrots,0.042,0.2211,1.1053
+Carrots,Greek Yogurt,0.042,0.21,1.1053
+Garlic,All-Purpose Surface Cleaner,0.042,0.2188,1.1048
+All-Purpose Surface Cleaner,Garlic,0.042,0.2121,1.1048
+Cucumber,Lemons,0.052,0.2407,1.1043
+Lemons,Cucumber,0.052,0.2385,1.1043
+Carrots,Broccoli,0.052,0.26,1.1017
+Broccoli,Carrots,0.052,0.2203,1.1017
+Carrots,Lemons,0.048,0.24,1.1009
+Lemons,Carrots,0.048,0.2202,1.1009
+Dishwashing Liquid,Cottage cheese,0.054,0.2596,1.1001
+Cottage cheese,Dishwashing Liquid,0.054,0.2288,1.1001
+Spinach,Fresh Fish Fillets,0.048,0.233,1.0991
+Fresh Fish Fillets,Spinach,0.048,0.2264,1.0991
+lamb,Eggs,0.054,0.2571,1.0989
+Dishwashing Liquid,lamb,0.048,0.2308,1.0989
+Apples,lamb,0.048,0.2308,1.0989
+Eggs,lamb,0.054,0.2308,1.0989
+lamb,Dishwashing Liquid,0.048,0.2286,1.0989
+lamb,Apples,0.048,0.2286,1.0989
+Cucumber,Cottage cheese,0.056,0.2593,1.0986
+Cottage cheese,Cucumber,0.056,0.2373,1.0986
+Greek Yogurt,Garlic,0.04,0.2105,1.0965
+Garlic,Greek Yogurt,0.04,0.2083,1.0965
+Carrots,lamb,0.046,0.23,1.0952
+lamb,Carrots,0.046,0.219,1.0952
+Spinach,Prawns,0.05,0.2427,1.0933
+Prawns,Spinach,0.05,0.2252,1.0933
+Greek Yogurt,Laundry Detergent,0.044,0.2316,1.0924
+Laundry Detergent,Greek Yogurt,0.044,0.2075,1.0924
+Lemons,Chicken Breast,0.06,0.2752,1.0922
+Chicken Breast,Lemons,0.06,0.2381,1.0922
+All-Purpose Surface Cleaner,Grapes,0.054,0.2727,1.0909
+Grapes,All-Purpose Surface Cleaner,0.054,0.216,1.0909
+Dishwashing Liquid,Fresh Fish Fillets,0.048,0.2308,1.0885
+Dishwashing Liquid,Laundry Detergent,0.048,0.2308,1.0885
+Fresh Fish Fillets,Dishwashing Liquid,0.048,0.2264,1.0885
+Laundry Detergent,Dishwashing Liquid,0.048,0.2264,1.0885
+Spinach,Grapes,0.056,0.2718,1.0874
+Bell Peppers,Broccoli,0.058,0.2566,1.0874
+Broccoli,Bell Peppers,0.058,0.2458,1.0874
+Grapes,Spinach,0.056,0.224,1.0874
+Dishwashing Liquid,Ginger,0.052,0.25,1.087
+Ginger,Dishwashing Liquid,0.052,0.2261,1.087
+cheese,Bell Peppers,0.052,0.2453,1.0853
+Bell Peppers,cheese,0.052,0.2301,1.0853
+Garlic,sunflower oil,0.04,0.2083,1.0851
+sunflower oil,Garlic,0.04,0.2083,1.0851
+Full-Cream Milk,Grapes,0.058,0.271,1.0841
+Grapes,Full-Cream Milk,0.058,0.232,1.0841
+Apples,Prawns,0.05,0.2404,1.0828
+Prawns,Apples,0.05,0.2252,1.0828
+Lemons,Potatoes,0.058,0.2661,1.0815
+Potatoes,Lemons,0.058,0.2358,1.0815
+Carrots,Grapes,0.054,0.27,1.08
+Grapes,Carrots,0.054,0.216,1.08
+cheese,Cottage cheese,0.054,0.2547,1.0793
+Cottage cheese,cheese,0.054,0.2288,1.0793
+Spinach,Butter,0.048,0.233,1.0787
+Butter,Spinach,0.048,0.2222,1.0787
+Ginger,Grapes,0.062,0.2696,1.0783
+Grapes,Ginger,0.062,0.248,1.0783
+Lemons,Ginger,0.054,0.2477,1.077
+Ginger,Lemons,0.054,0.2348,1.077
+Onions,cheese,0.042,0.2283,1.0767
+Onions,Laundry Detergent,0.042,0.2283,1.0767
+cheese,Onions,0.042,0.1981,1.0767
+Laundry Detergent,Onions,0.042,0.1981,1.0767
+Carrots,Full-Cream Milk,0.046,0.23,1.0748
+Full-Cream Milk,Carrots,0.046,0.215,1.0748
+Laundry Detergent,Potatoes,0.056,0.2642,1.0738
+cheese,Potatoes,0.056,0.2642,1.0738
+Potatoes,Laundry Detergent,0.056,0.2276,1.0738
+Potatoes,cheese,0.056,0.2276,1.0738
+Spinach,Dishwashing Liquid,0.046,0.2233,1.0736
+Sponges/Scrubbers,Dishwashing Liquid,0.046,0.2233,1.0736
+Dishwashing Liquid,Spinach,0.046,0.2212,1.0736
+Dishwashing Liquid,Sponges/Scrubbers,0.046,0.2212,1.0736
+Carrots,Chicken Breast,0.054,0.27,1.0714
+Chicken Breast,Carrots,0.054,0.2143,1.0714
+Greek Yogurt,Tomatoes,0.046,0.2421,1.0713
+Tomatoes,Greek Yogurt,0.046,0.2035,1.0713
+Full-Cream Milk,Broccoli,0.054,0.2523,1.0692
+Broccoli,Full-Cream Milk,0.054,0.2288,1.0692
+Sponges/Scrubbers,Lemons,0.048,0.233,1.0689
+Lemons,Sponges/Scrubbers,0.048,0.2202,1.0689
+All-Purpose Surface Cleaner,Dishwashing Liquid,0.044,0.2222,1.0684
+Dishwashing Liquid,All-Purpose Surface Cleaner,0.044,0.2115,1.0684
+Carrots,Bananas,0.048,0.24,1.0619
+Carrots,Bell Peppers,0.048,0.24,1.0619
+Bananas,Carrots,0.048,0.2124,1.0619
+Bell Peppers,Carrots,0.048,0.2124,1.0619
+Garlic,Bell Peppers,0.046,0.2396,1.0601
+Bell Peppers,Garlic,0.046,0.2035,1.0601
+Carrots,Dishwashing Liquid,0.044,0.22,1.0577
+Dishwashing Liquid,Carrots,0.044,0.2115,1.0577
+Prawns,Ginger,0.054,0.2432,1.0576
+Ginger,Prawns,0.054,0.2348,1.0576
+Apples,Oranges,0.05,0.2404,1.0543
+Oranges,Apples,0.05,0.2193,1.0543
+Bell Peppers,Chicken Breast,0.06,0.2655,1.0535
+Chicken Breast,Bell Peppers,0.06,0.2381,1.0535
+lamb,Bell Peppers,0.05,0.2381,1.0535
+Bell Peppers,lamb,0.05,0.2212,1.0535
+Oranges,Grapes,0.06,0.2632,1.0526
+Grapes,Oranges,0.06,0.24,1.0526
+Garlic,Lemons,0.044,0.2292,1.0512
+Lemons,Garlic,0.044,0.2018,1.0512
+Tomatoes,Cottage cheese,0.056,0.2478,1.0499
+Cottage cheese,Tomatoes,0.056,0.2373,1.0499
+Onions,Oranges,0.044,0.2391,1.0488
+Oranges,Onions,0.044,0.193,1.0488
+Apples,Ginger,0.05,0.2404,1.0452
+Ginger,Apples,0.05,0.2174,1.0452
+Prawns,Grapes,0.058,0.2613,1.045
+Grapes,Prawns,0.058,0.232,1.045
+lamb,Oranges,0.05,0.2381,1.0443
+Oranges,lamb,0.05,0.2193,1.0443
+Dishwashing Liquid,cheese,0.046,0.2212,1.0432
+Apples,Fresh Fish Fillets,0.046,0.2212,1.0432
+cheese,Dishwashing Liquid,0.046,0.217,1.0432
+Fresh Fish Fillets,Apples,0.046,0.217,1.0432
+Cucumber,Prawns,0.05,0.2315,1.0427
+Prawns,Cucumber,0.05,0.2252,1.0427
+Cottage cheese,Chicken Breast,0.062,0.2627,1.0425
+Chicken Breast,Cottage cheese,0.062,0.246,1.0425
+Dishwashing Liquid,Prawns,0.048,0.2308,1.0395
+Prawns,Dishwashing Liquid,0.048,0.2162,1.0395
+Bell Peppers,Ginger,0.054,0.2389,1.0389
+Ginger,Bell Peppers,0.054,0.2348,1.0389
+Full-Cream Milk,Butter,0.048,0.2243,1.0384
+Butter,Full-Cream Milk,0.048,0.2222,1.0384
+Spinach,Eggs,0.05,0.2427,1.0373
+Eggs,Spinach,0.05,0.2137,1.0373
+Onions,lamb,0.04,0.2174,1.0352
+lamb,Onions,0.04,0.1905,1.0352
+cheese,Oranges,0.05,0.2358,1.0344
+Oranges,cheese,0.05,0.2193,1.0344
+Full-Cream Milk,Tomatoes,0.05,0.2336,1.0338
+Full-Cream Milk,Bananas,0.05,0.2336,1.0338
+Tomatoes,Full-Cream Milk,0.05,0.2212,1.0338
+Bananas,Full-Cream Milk,0.05,0.2212,1.0338
+Garlic,Prawns,0.044,0.2292,1.0323
+Prawns,Garlic,0.044,0.1982,1.0323
+Garlic,cheese,0.042,0.2188,1.0318
+cheese,Garlic,0.042,0.1981,1.0318
+Ginger,Broccoli,0.056,0.2435,1.0317
+Broccoli,Ginger,0.056,0.2373,1.0317
+Prawns,Cottage cheese,0.054,0.2432,1.0307
+Cottage cheese,Prawns,0.054,0.2288,1.0307
+Butter,Eggs,0.052,0.2407,1.0288
+Cucumber,Eggs,0.052,0.2407,1.0288
+Eggs,Butter,0.052,0.2222,1.0288
+Eggs,Cucumber,0.052,0.2222,1.0288
+Apples,Eggs,0.05,0.2404,1.0273
+Eggs,Apples,0.05,0.2137,1.0273
+All-Purpose Surface Cleaner,Broccoli,0.048,0.2424,1.0272
+Broccoli,All-Purpose Surface Cleaner,0.048,0.2034,1.0272
+Sponges/Scrubbers,Potatoes,0.052,0.2524,1.0261
+Potatoes,Sponges/Scrubbers,0.052,0.2114,1.0261
+Carrots,Eggs,0.048,0.24,1.0256
+Eggs,Carrots,0.048,0.2051,1.0256
+Butter,Bananas,0.05,0.2315,1.0243
+Bananas,Butter,0.05,0.2212,1.0243
+sunflower oil,Eggs,0.046,0.2396,1.0239
+Dishwashing Liquid,Cucumber,0.046,0.2212,1.0239
+Cucumber,Dishwashing Liquid,0.046,0.213,1.0239
+Eggs,sunflower oil,0.046,0.1966,1.0239
+lamb,Full-Cream Milk,0.046,0.219,1.0236
+Full-Cream Milk,lamb,0.046,0.215,1.0236
+Laundry Detergent,cheese,0.046,0.217,1.0235
+cheese,Laundry Detergent,0.046,0.217,1.0235
+Fresh Fish Fillets,cheese,0.046,0.217,1.0235
+cheese,Fresh Fish Fillets,0.046,0.217,1.0235
+Garlic,Full-Cream Milk,0.042,0.2188,1.0222
+Full-Cream Milk,Garlic,0.042,0.1963,1.0222
+cheese,Prawns,0.048,0.2264,1.0199
+Prawns,cheese,0.048,0.2162,1.0199
+All-Purpose Surface Cleaner,Apples,0.042,0.2121,1.0198
+Apples,All-Purpose Surface Cleaner,0.042,0.2019,1.0198
+Carrots,Sponges/Scrubbers,0.042,0.21,1.0194
+Sponges/Scrubbers,Carrots,0.042,0.2039,1.0194
+Carrots,Butter,0.044,0.22,1.0185
+Butter,Carrots,0.044,0.2037,1.0185
+sunflower oil,Potatoes,0.048,0.25,1.0163
+Potatoes,sunflower oil,0.048,0.1951,1.0163
+Full-Cream Milk,Ginger,0.05,0.2336,1.0158
+Ginger,Full-Cream Milk,0.05,0.2174,1.0158
+Garlic,Cottage cheese,0.046,0.2396,1.0152
+Cottage cheese,Garlic,0.046,0.1949,1.0152
+Lemons,Bananas,0.05,0.2294,1.0149
+Bananas,Lemons,0.05,0.2212,1.0149
+Eggs,Broccoli,0.056,0.2393,1.0141
+Broccoli,Eggs,0.056,0.2373,1.0141
+sunflower oil,Bananas,0.044,0.2292,1.014
+Bananas,sunflower oil,0.044,0.1947,1.014
+Fresh Fish Fillets,Full-Cream Milk,0.046,0.217,1.0139
+Full-Cream Milk,Fresh Fish Fillets,0.046,0.215,1.0139
+Greek Yogurt,Apples,0.04,0.2105,1.0121
+Apples,Greek Yogurt,0.04,0.1923,1.0121
+cheese,Chicken Breast,0.054,0.2547,1.0108
+Chicken Breast,cheese,0.054,0.2143,1.0108
+Potatoes,Grapes,0.062,0.252,1.0081
+Grapes,Potatoes,0.062,0.248,1.0081
+Laundry Detergent,Eggs,0.05,0.2358,1.0079
+Eggs,Laundry Detergent,0.05,0.2137,1.0079
+Lemons,Oranges,0.05,0.2294,1.006
+Oranges,Lemons,0.05,0.2193,1.006
+Broccoli,Cottage cheese,0.056,0.2373,1.0055
+Cottage cheese,Broccoli,0.056,0.2373,1.0055
+cheese,Bananas,0.048,0.2264,1.0018
+cheese,Tomatoes,0.048,0.2264,1.0018
+Bananas,cheese,0.048,0.2124,1.0018
+Tomatoes,cheese,0.048,0.2124,1.0018
+sunflower oil,Apples,0.04,0.2083,1.0016
+Apples,sunflower oil,0.04,0.1923,1.0016
+Prawns,Chicken Breast,0.056,0.2523,1.001
+Chicken Breast,Prawns,0.056,0.2222,1.001
+All-Purpose Surface Cleaner,cheese,0.042,0.2121,1.0006
+cheese,All-Purpose Surface Cleaner,0.042,0.1981,1.0006
